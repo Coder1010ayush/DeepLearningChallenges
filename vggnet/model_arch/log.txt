@@ -1,0 +1,61 @@
+infinity@endless:~/Documents/icpr_challenges/vggnet/model_arch$ python3 train.py 
+INFO:root:INFO: Model training starting ...............
+INFO:root:INFO: Epoch is 0
+Epoch 1/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 844/844 [01:08<00:00, 12.26it/s]
+INFO:root:INFO: Total training loss is 4.5917
+INFO:root:INFO: Model evaluation starting ...............
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:01<00:00, 27.85it/s]
+INFO:root:INFO: Total validation loss is 4.5797
+INFO:root:INFO: Total time in evaluation is 1.15 seconds
+INFO:root:INFO: Model is validated ......................
+INFO:root:INFO: Total time taken in training is 69.98 seconds
+INFO:root:INFO: Model training starting ...............
+INFO:root:INFO: Epoch is 1
+Epoch 2/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 844/844 [01:13<00:00, 11.54it/s]
+INFO:root:INFO: Total training loss is 4.5328
+INFO:root:INFO: Model evaluation starting ...............
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:01<00:00, 24.56it/s]
+INFO:root:INFO: Total validation loss is 4.5392
+INFO:root:INFO: Total time in evaluation is 1.31 seconds
+INFO:root:INFO: Model is validated ......................
+INFO:root:INFO: Total time taken in training is 74.46 seconds
+INFO:root:INFO: Model training starting ...............
+INFO:root:INFO: Epoch is 2
+Epoch 3/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 844/844 [01:24<00:00, 10.02it/s]
+INFO:root:INFO: Total training loss is 4.4791
+INFO:root:INFO: Model evaluation starting ...............
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:01<00:00, 24.90it/s]
+INFO:root:INFO: Total validation loss is 4.4964
+INFO:root:INFO: Total time in evaluation is 1.29 seconds
+INFO:root:INFO: Model is validated ......................
+INFO:root:INFO: Total time taken in training is 85.49 seconds
+INFO:root:INFO: Model training starting ...............
+INFO:root:INFO: Epoch is 3
+Epoch 4/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 844/844 [01:22<00:00, 10.21it/s]
+INFO:root:INFO: Total training loss is 4.4401
+INFO:root:INFO: Model evaluation starting ...............
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:01<00:00, 23.61it/s]
+INFO:root:INFO: Total validation loss is 4.4805
+INFO:root:INFO: Total time in evaluation is 1.36 seconds
+INFO:root:INFO: Model is validated ......................
+INFO:root:INFO: Total time taken in training is 84.03 seconds
+INFO:root:INFO: Model training starting ...............
+INFO:root:INFO: Epoch is 4
+Epoch 5/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 844/844 [01:21<00:00, 10.37it/s]
+INFO:root:INFO: Total training loss is 4.4169
+INFO:root:INFO: Model evaluation starting ...............
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:01<00:00, 23.15it/s]
+INFO:root:INFO: Total validation loss is 4.4728
+INFO:root:INFO: Total time in evaluation is 1.39 seconds
+INFO:root:INFO: Model is validated ......................
+INFO:root:INFO: Total time taken in training is 82.78 seconds
+INFO:root:INFO: Model training starting ...............
+INFO:root:INFO: Epoch is 5
+Epoch 6/100: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 844/844 [01:16<00:00, 10.99it/s]
+INFO:root:INFO: Total training loss is 4.3893
+INFO:root:INFO: Model evaluation starting ...............
+Validating: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 32/32 [00:01<00:00, 26.17it/s]
+INFO:root:INFO: Total validation loss is 4.4693
+INFO:root:INFO: Total time in evaluation is 1.23 seconds
+INFO:root:INFO: Model is validated ......................
+INFO:root:INFO: Total time taken in training is 78.04 seconds
