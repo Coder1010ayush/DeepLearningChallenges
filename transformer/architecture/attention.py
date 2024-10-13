@@ -82,7 +82,7 @@ class MultiHeadAttention(nn.Module):
         self.out_projection = nn.Linear(self.dim, self.dim, self.bias_opt)
 
     @staticmethod
-    def attention(query: torch.Tensor, key: torch.Tensor, value: torch.Tensor, mask: torch.Tensor = None, dropout: nn.Module = None):
+    def attention(query: torch.Tensor, key: torch.Tensor, value: torch.Tensor, mask: torch.Tensor , dropout: nn.Module ):
         attn_score = (query @ key.transpose(-2, -1)) / (query.shape[-1] ** 0.5)
 
         if mask is not None:
