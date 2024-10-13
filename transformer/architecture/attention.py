@@ -97,7 +97,6 @@ class MultiHeadAttention(nn.Module):
         k_proj = self.key_projection(key)
         v_proj = self.value_projection(value)
 
-        # Ensure q_proj, k_proj, v_proj shapes are correct
         assert q_proj.shape[-1] == k_proj.shape[-1] == v_proj.shape[-1] == self.dim, "Projection output dimension mismatch"
 
         batch_size, seq_length_q, _ = q_proj.shape
