@@ -34,6 +34,8 @@ def visualize_clip_model():
     ax.axis('off')
     plt.show()
 
+# model arguments
+
 
 class ModelArgs:
     num_heads = 4
